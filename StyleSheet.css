@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.nav-bar {
+    display: flex;
+    position: static;
+    width: 100%;
+    background-color: #1f2937;
+    color: #fff;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px 80px;
+}
+
+.nav-bar h2 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 15px;
+    font-size: 24px !important;
+    font-weight: bold 900 !important;
+}
+
+.Content-box {
+    width: 100%;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: right;
+    margin-left: -15px;
+}
+
+.nav-content ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+}
+
+.nav-content li {
+    font-size: 14px;
+    margin: 18px 10px;
+}
+
+
+#Top {
+    display: flex;
+    background-color: #1f2937;
+    height: 400px;
+    color: #fff;
+}
+
+.Intro-Box {
+    display: flex;
+    width: 100%;
+    margin: 0px 80px;
+}
+
+.Intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 80%;
+    width: 45%;
+    margin: 40px 0px 20px 30px;
+}
+
+.Intro h1 {
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 0px;
+    
+}
+
+.Intro-ImageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: -15px;
+    margin :20px;   
+}
+
+.Imagebox figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    background-color: #6d747d;
+    color: #fff;
+}
+
+
+#Main h2 {
+    display: flex;
+    position: static;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: bold !important;
+
+}
+
+.Main-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+.ill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 22àpx;
+    height: 300px;
+}
+
+.img-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border: solid 5px #3b82f6;
+    border-radius: 10px;
+}
+
+.img-text p {
+    width: 150px;
+}
+
+#Testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-color: #E5E7EB;
+}
+
+.Testimonial-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 200px;
+    width: 80%;
+}
+
+.Testimonial-Container p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+#Thor {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 0;
+}
+
+
+#Bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    color: #fff;
+
+}
+
+.SignUp-Speech {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 80%;
+    background-color: #3b82f6;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.Bottom-Speech {
+    display: initial;
+    margin-left: 20px;
+}
+
+.Bottom-Speech h4 {
+    font-size: 24px !important;
+    font-weight: 800 bold !important;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.Bottom-Speech p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.Button-box {
+    margin-right: 20px;
+}
+
+button {
+    background-color: #3b82f6;
+    color: #fff;
+    height: 40px;
+    width: 130px;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: #3b82f6 ;
+}
+
+.btn2 {
+    border-color: #fff ;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #fff;
+    font-weight: bold;
+    height: 50px;
+    width: 100%;
+    }
+
+
+
+
+
